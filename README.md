@@ -30,11 +30,31 @@ Some useful tips to help you get started:
 
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
+__Optimizations made:__
+
+- Inlined main CSS
+- Added media attribute for print styles
+- Loaded Google font with WebFont Loader
+- Loaded JavaScript asynchornously
+- Optimized images
+
+__Future improvements:__
+
+- Minify HTML, CSS, JS
+- Leverage browser caching
+
+
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
+
+__Optimizations made:__
+
+- Fixed forced synchornous layout issue with pizza sliders
+- Moved constants out of for loops
+- Render number of pizzas based on size of window instead of an arbitrary constant
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
